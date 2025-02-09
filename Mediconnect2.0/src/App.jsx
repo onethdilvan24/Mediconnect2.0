@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< Updated upstream
 import { Route, Routes } from 'react-router-dom'
 import Home from './Pages/Home'
 import Doctors from './Pages/Doctors'
@@ -32,3 +33,13 @@ const App = () => {
 }
 
 export default App
+=======
+
+export const App = () => {
+  return (
+    <div>
+      <h1 className='text-black'>Ramal Mama</h1>
+    </div>
+  )
+}
+>>>>>>> Stashed changes
