@@ -1,5 +1,4 @@
 import React from 'react'
-<<<<<<< Updated upstream
 import { Route, Routes } from 'react-router-dom'
 import Home from './Pages/Home'
 import Doctors from './Pages/Doctors'
@@ -12,7 +11,7 @@ import Appointment from './Pages/Appointment'
 import Shop from './Pages/Shop'
 import Navbar from './Components/Navbar'
 
-const App = () => {
+const App = () =>  {
   return (
     <div className='mx-4 sm:mx-[10%]'>
       <Navbar/>
@@ -32,14 +31,4 @@ const App = () => {
   )
 }
 
-export default App
-=======
 
-export const App = () => {
-  return (
-    <div>
-      <h1 className='text-black'>Ramal Mama</h1>
-    </div>
-  )
-}
->>>>>>> Stashed changes

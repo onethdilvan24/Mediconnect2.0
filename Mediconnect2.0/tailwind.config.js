@@ -5,19 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-<<<<<<< Updated upstream
     extend: {
-      colors:{
-        'primary':"#47B5FF"
-      }
+      colors: {
+        primary: "#47B5FF",
+      },
     },
   },
   plugins: [],
-}
-
-=======
-    extend: {},
-  },
-  plugins: [],
-}
->>>>>>> Stashed changes
+};
